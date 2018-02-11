@@ -25,7 +25,7 @@ Group:          Productivity/Databases/Clients
 Version:        2.4.0
 Release:        0
 Url:            https://github.com/flightaware/Pgtcl
-Source0:        libpgtcl-%version.tar.gz
+Source0:        Pgtcl-%version.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
@@ -33,7 +33,7 @@ This package contains the libpgtcl client library as a loadable Tcl
 package. It is needed to access PostgreSQL databases from Tcl scripts.
 
 %prep
-%setup -q -n libpgtcl-%version
+%setup -q -n Pgtcl-%version
 
 %build
 CFLAGS=-DUSE_INTERP_ERRORLINE
