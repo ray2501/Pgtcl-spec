@@ -18,7 +18,7 @@
 
 Name:           PgTcl
 BuildRequires:  postgresql-devel
-BuildRequires:  tcl-devel
+BuildRequires:  tcl-devel >= 8.4
 Summary:        Tcl Client Library for PostgreSQL
 License:        MIT
 Group:          Productivity/Databases/Clients
