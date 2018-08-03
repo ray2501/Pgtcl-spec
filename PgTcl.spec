@@ -17,12 +17,13 @@
 
 
 Name:           PgTcl
+BuildRequires:  autoconf
 BuildRequires:  postgresql-devel
 BuildRequires:  tcl-devel >= 8.4
 Summary:        Tcl Client Library for PostgreSQL
 License:        MIT
 Group:          Productivity/Databases/Clients
-Version:        2.6.0
+Version:        2.6.1
 Release:        0
 Url:            https://github.com/flightaware/Pgtcl
 Source0:        Pgtcl-%version.tar.gz
@@ -36,6 +37,7 @@ package. It is needed to access PostgreSQL databases from Tcl scripts.
 %setup -q -n Pgtcl-%version
 
 %build
+autoconf
 CFLAGS=-DUSE_INTERP_ERRORLINE
 %configure \
         --libdir=%tcl_archdir \
