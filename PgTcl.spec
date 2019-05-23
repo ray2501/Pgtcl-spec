@@ -23,7 +23,7 @@ BuildRequires:  tcl-devel >= 8.4
 Summary:        Tcl Client Library for PostgreSQL
 License:        MIT
 Group:          Productivity/Databases/Clients
-Version:        2.6.2
+Version:        2.6.3
 Release:        0
 Url:            https://github.com/flightaware/Pgtcl
 Source0:        Pgtcl-%version.tar.gz
