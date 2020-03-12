@@ -1,8 +1,8 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "Pgtcl-2.6.3"
-set fileurl "https://github.com/flightaware/Pgtcl/archive/v2.6.3.tar.gz"
+set base "Pgtcl-2.7.1"
+set fileurl "https://github.com/flightaware/Pgtcl/archive/v2.7.1.tar.gz"
 
 set var [list wget $fileurl -O $base.tar.gz]
 exec >@stdout 2>@stderr {*}$var
