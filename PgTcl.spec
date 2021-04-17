@@ -19,11 +19,11 @@
 Name:           PgTcl
 BuildRequires:  autoconf
 BuildRequires:  postgresql-devel
-BuildRequires:  tcl-devel >= 8.4
+BuildRequires:  tcl-devel >= 8.6
 Summary:        Tcl Client Library for PostgreSQL
 License:        MIT
 Group:          Productivity/Databases/Clients
-Version:        2.7.6
+Version:        2.7.7
 Release:        0
 Url:            https://github.com/flightaware/Pgtcl
 Source0:        Pgtcl-%version.tar.gz
